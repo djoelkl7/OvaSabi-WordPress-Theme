@@ -1,0 +1,6 @@
+{
+  "name": "RyanCV - CV & vCard Portfolio",
+  "description": "Interactive CV, Resume, and vCard portfolio inspired by RyanCV with dark and light mode, tabbed navigation, live portfolio showcase, and customizable profile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
