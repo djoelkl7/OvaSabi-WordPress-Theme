@@ -36,10 +36,10 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
             className="text-lg font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2 whitespace-nowrap"
           >
             <span className="w-8 h-8 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-slate-900 flex items-center justify-center font-black text-sm shadow-sm">
-              R
+              O
             </span>
             <span>
-              Ryan<span className="text-emerald-500 font-semibold" style={{ color: colorThemes.find(c => c.id === themeColor)?.primary }}>CV</span>
+              OvaSabi<span className="text-emerald-500 font-semibold" style={{ color: colorThemes.find(c => c.id === themeColor)?.primary }}>CV</span>
             </span>
           </a>
         </div>
@@ -72,7 +72,7 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
               aria-label="Select background effect"
               className="bg-transparent text-xs text-slate-700 dark:text-slate-300 font-medium focus:outline-none cursor-pointer"
             >
-              <option value="particles" className="dark:bg-slate-900">Particles (RyanCV)</option>
+              <option value="particles" className="dark:bg-slate-900">Particles (OvaSabi)</option>
               <option value="gradient" className="dark:bg-slate-900">Gradient Mesh</option>
               <option value="stars" className="dark:bg-slate-900">Constellations</option>
               <option value="clean" className="dark:bg-slate-900">Clean Minimal</option>

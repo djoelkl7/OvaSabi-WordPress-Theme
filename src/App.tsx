@@ -209,7 +209,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="font-semibold text-slate-700 dark:text-slate-300 hover:underline"
             >
-              RyanCV Default Live Blueprint
+              OvaSabi CV WordPress Theme
             </a>
           </div>
         </div>

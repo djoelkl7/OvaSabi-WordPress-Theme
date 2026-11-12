@@ -87,7 +87,7 @@ export const DocsTab: React.FC<DocsTabProps> = ({ themeColor }) => {
       setQaAnswer({
         question: `Answer for: "${questionText}"`,
         answer:
-          'According to the RyanCV GitBook manual, RyanCV is configured via Appearance > Themes for installation, followed by installing Elementor & ACF Pro, running Appearance > Import Demo Data, and managing colors, fonts, and vCard profile fields in Theme Options.',
+          'According to the OvaSabi CV GitBook manual, OvaSabi CV is configured via Appearance > Themes for installation, followed by installing Elementor & ACF Pro, running Appearance > Import Demo Data, and managing colors, fonts, and vCard profile fields in Theme Options.',
         chapterRef: 'welcome',
       });
     }
@@ -101,8 +101,8 @@ export const DocsTab: React.FC<DocsTabProps> = ({ themeColor }) => {
   };
 
   const quickQuestions = [
-    'How do I install the RyanCV WordPress theme?',
-    'Do I need Elementor Pro to use all RyanCV features?',
+    'How do I install the OvaSabi CV WordPress theme?',
+    'Do I need Elementor Pro to use all OvaSabi CV features?',
     'How do I import demo content with one click?',
     'How do I change the accent color and dark/light mode?',
     'How do I configure the typewriter text in the profile card?',
@@ -115,10 +115,10 @@ export const DocsTab: React.FC<DocsTabProps> = ({ themeColor }) => {
         <div>
           <h2 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
             <BookOpen className="w-5 h-5" style={{ color: activeColor }} />
-            <span>RyanCV Theme Documentation & Q&A</span>
+            <span>OvaSabi CV Theme Documentation & Q&A</span>
           </h2>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            Official GitBook user manual (bslthemes.gitbook.io/ryancv-wp-doc) with interactive assistant
+            Official GitBook user manual with interactive setup assistant
           </p>
         </div>
 
@@ -138,7 +138,7 @@ export const DocsTab: React.FC<DocsTabProps> = ({ themeColor }) => {
       <div className="p-6 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-800/40">
         <h3 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-2 mb-2">
           <HelpCircle className="w-4 h-4" style={{ color: activeColor }} />
-          <span>Ask Questions About RyanCV Documentation</span>
+          <span>Ask Questions About OvaSabi CV Documentation</span>
         </h3>
         <p className="text-xs text-slate-500 dark:text-slate-400 mb-4">
           Type any question regarding installation, Elementor widgets, demo import, or theme options:

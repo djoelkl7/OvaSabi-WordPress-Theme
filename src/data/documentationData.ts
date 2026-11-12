@@ -26,12 +26,12 @@ export const gitbookChapters: DocChapter[] = [
     category: 'Getting Started',
     readTime: '3 min read',
     summary:
-      'Introduction to RyanCV CV / Resume / vCard WordPress Theme created by bslthemes, hosting requirements, and package structure.',
+      'Introduction to OvaSabi CV WordPress Theme, hosting requirements, and package structure.',
     sections: [
       {
-        heading: 'About RyanCV Theme',
+        heading: 'About OvaSabi CV WordPress Theme',
         content: [
-          'RyanCV is a premium CV, Resume, and vCard portfolio theme crafted by bslthemes for WordPress and modern web platforms.',
+          'OvaSabi CV is a premium CV, Resume, and vCard WordPress theme designed for developers, programmers, designers, freelancers, and creative technologists.',
           'The theme is built on a responsive double-card layout designed for developers, programmers, designers, freelancers, photographers, and architects.',
           'It features seamless dark/light modes, multiple background effects, Elementor page builder widgets, ACF Pro fields, and custom post types for portfolio and blog.',
         ],
@@ -68,18 +68,18 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );`,
           '3. Click the "Add New Theme" button at the top, then click "Upload Theme".',
           '4. Choose the "ryancv.zip" file located in your downloaded ThemeForest package.',
           '5. Click "Install Now" and wait for WordPress to unpack the archive.',
-          '6. Once installed, click "Activate" to set RyanCV as your active theme.',
+          '6. Once installed, click "Activate" to set OvaSabi CV as your active theme.',
         ],
-        tip: 'Ensure you are uploading "ryancv.zip" (the installable theme file), not the entire unzipped package from ThemeForest containing documentation and PSD files.',
+        tip: 'Ensure you are uploading "ovasabi-cv.zip" (the installable theme file), not the entire unzipped package containing documentation and PSD files.',
       },
       {
         heading: 'Method 2: FTP / SFTP Installation',
         content: [
-          '1. Unzip the downloaded "ryancv.zip" archive on your local computer.',
+          '1. Unzip the downloaded "ovasabi-cv.zip" archive on your local computer.',
           '2. Connect to your web hosting server via your favorite FTP client (FileZilla, Cyberduck, etc.).',
           '3. Navigate to the "/wp-content/themes/" directory.',
-          '4. Upload the extracted "ryancv" folder into this directory.',
-          '5. Once upload completes, log into wp-admin > Appearance > Themes and click "Activate" under RyanCV.',
+          '4. Upload the extracted "ovasabi-cv" folder into this directory.',
+          '5. Once upload completes, log into wp-admin > Appearance > Themes and click "Activate" under OvaSabi CV.',
         ],
       },
     ],
@@ -90,20 +90,20 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );`,
     category: 'Configuration',
     readTime: '4 min read',
     summary:
-      'Overview of core plugins including Elementor, ACF Pro, RyanCV Plugin, One Click Demo Import, and MetForm.',
+      'Overview of core plugins including Elementor, ACF Pro, OvaSabi CV Companion Plugin, One Click Demo Import, and MetForm.',
     sections: [
       {
         heading: 'Required Plugins Overview',
         content: [
-          'Immediately upon activating RyanCV, WordPress will display an admin notification prompting you to install recommended plugins.',
+          'Immediately upon activating OvaSabi CV, WordPress will display an admin notification prompting you to install recommended plugins.',
           '• Elementor Page Builder (Free): Used to edit all page layouts, vCard cards, and interactive blocks.',
           '• ACF Pro (Advanced Custom Fields PRO): Bundled with the theme at no extra cost; powers repeatable timeline items, skills, and layout options.',
-          '• RyanCV Plugin: The companion plugin providing custom Elementor widgets, custom post types (Portfolio, Resume, Testimonials), and theme features.',
+          '• OvaSabi CV Plugin: The companion plugin providing custom Elementor widgets, custom post types (Portfolio, Resume, Testimonials), and theme features.',
           '• One Click Demo Import (OCDI): Powers the instant demo content replication.',
           '• Contact Form 7 / MetForm: Form builders for handling contact requests.',
           '• WooCommerce (Optional): Supported for selling digital products or physical goods.',
         ],
-        tip: 'You do NOT need Elementor Pro. All required widgets and visual styles are bundled in the free version + RyanCV companion plugin.',
+        tip: 'You do NOT need Elementor Pro. All required widgets and visual styles are bundled in the free version + OvaSabi CV companion plugin.',
       },
       {
         heading: 'Bulk Plugin Activation',
@@ -122,12 +122,12 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );`,
     category: 'Setup',
     readTime: '3 min read',
     summary:
-      'Replicating the official RyanCV demo layouts (Default, Dark, Minimal, Developer) with a single click.',
+      'Replicating the official OvaSabi CV demo layouts (Default, Dark, Minimal, Developer) with a single click.',
     sections: [
       {
         heading: 'How to Import Demo Data',
         content: [
-          '1. Ensure RyanCV, Elementor, ACF Pro, and RyanCV Plugin are installed and activated.',
+          '1. Ensure OvaSabi CV, Elementor, ACF Pro, and OvaSabi CV Plugin are installed and activated.',
           '2. In the WordPress sidebar, go to Appearance > Import Demo Data.',
           '3. Browse the pre-built demo variations (Default Classic, Dark Developer, Modern Minimalist, Designer).',
           '4. Click the "Import Demo" button under your chosen variation.',
@@ -174,18 +174,18 @@ Web Designer, Full-Stack Engineer, Creative Technologist`,
     category: 'Page Building',
     readTime: '6 min read',
     summary:
-      'Using RyanCV custom Elementor widgets to build and adjust About, Resume, Skills, and Portfolio pages.',
+      'Using OvaSabi CV custom Elementor widgets to build and adjust About, Resume, Skills, and Portfolio pages.',
     sections: [
       {
-        heading: 'Custom RyanCV Elementor Widgets',
+        heading: 'Custom OvaSabi CV Elementor Widgets',
         content: [
-          '• Ryan: Services Box — Icon, service title, and description.',
-          '• Ryan: Pricing Table — Plan name, price, feature checklist, and order button.',
-          '• Ryan: Fun Facts / Milestones — Milestone counter with icon and label.',
-          '• Ryan: Testimonials Slider — Review quotes with client avatar and company name.',
-          '• Ryan: Resume Timelines — Chronological cards for experience and education.',
-          '• Ryan: Skills with Progress Bars — Animated percentage meters with customizable bar color.',
-          '• Ryan: Portfolio Grid — Filterable grid with isotope masonry and lightbox modal.',
+          '• OvaSabi: Services Box — Icon, service title, and description.',
+          '• OvaSabi: Pricing Table — Plan name, price, feature checklist, and order button.',
+          '• OvaSabi: Fun Facts / Milestones — Milestone counter with icon and label.',
+          '• OvaSabi: Testimonials Slider — Review quotes with client avatar and company name.',
+          '• OvaSabi: Resume Timelines — Chronological cards for experience and education.',
+          '• OvaSabi: Skills with Progress Bars — Animated percentage meters with customizable bar color.',
+          '• OvaSabi: Portfolio Grid — Filterable grid with isotope masonry and lightbox modal.',
         ],
       },
       {
@@ -210,7 +210,7 @@ Web Designer, Full-Stack Engineer, Creative Technologist`,
       {
         heading: 'Supported Media Formats',
         content: [
-          'RyanCV supports 5 interactive portfolio formats:',
+          'OvaSabi CV supports 5 interactive portfolio formats:',
           '1. Standard Image / Gallery Lightbox: Opens high-res images in a responsive popup.',
           '2. Video Popup: Embeds YouTube, Vimeo, or HTML5 MP4 videos directly in the modal.',
           '3. Audio / Soundcloud: Plays streaming music or podcast tracks in an embedded player.',
@@ -226,7 +226,7 @@ Web Designer, Full-Stack Engineer, Creative Technologist`,
     category: 'Support',
     readTime: '3 min read',
     summary:
-      'Fixing common errors, PHP memory issues, permalinks, and contacting bslthemes support on ThemeForest.',
+      'Fixing common errors, PHP memory issues, permalinks, and contacting support.',
     sections: [
       {
         heading: 'Common Solutions',
@@ -235,7 +235,7 @@ Web Designer, Full-Stack Engineer, Creative Technologist`,
           '• Demo Import Failed: Increase upload_max_filesize (32M+) and max_execution_time (300s+) in php.ini.',
           '• Missing Styling after Updates: Clear your browser cache and purge any caching plugin (WP Rocket, LiteSpeed, W3 Total Cache).',
         ],
-        tip: 'Submit a ticket at bslthemes.ticksy.com or via ThemeForest Support System for one-on-one developer assistance.',
+        tip: 'Submit a ticket or visit our support portal for one-on-one assistance.',
       },
     ],
   },
@@ -243,24 +243,24 @@ Web Designer, Full-Stack Engineer, Creative Technologist`,
 
 export const gitbookFAQs: FAQItem[] = [
   {
-    question: 'How do I install the RyanCV WordPress theme?',
+    question: 'How do I install the OvaSabi CV WordPress theme?',
     keywords: ['install', 'installation', 'upload', 'zip', 'wordpress', 'how to install'],
     answer:
-      'In your WordPress admin, navigate to Appearance > Themes > Add New > Upload Theme. Select the "ryancv.zip" file from your downloaded package and click "Install Now". After installation completes, click "Activate".',
+      'In your WordPress admin, navigate to Appearance > Themes > Add New > Upload Theme. Select the "ovasabi-cv.zip" file from your downloaded package and click "Install Now". After installation completes, click "Activate".',
     chapterRef: 'install-theme',
   },
   {
-    question: 'Do I need Elementor Pro to use all RyanCV features?',
+    question: 'Do I need Elementor Pro to use all OvaSabi CV features?',
     keywords: ['elementor', 'elementor pro', 'pro version', 'free elementor'],
     answer:
-      'No! You only need the free version of Elementor. All custom vCard widgets, portfolio isotope filters, skills progress bars, and timeline blocks are bundled inside the custom RyanCV companion plugin.',
+      'No! You only need the free version of Elementor. All custom vCard widgets, portfolio isotope filters, skills progress bars, and timeline blocks are bundled inside the custom OvaSabi CV companion plugin.',
     chapterRef: 'required-plugins',
   },
   {
     question: 'How do I import demo content with one click?',
     keywords: ['demo', 'import demo', 'one click', 'sample data', 'demo content'],
     answer:
-      'First activate the theme and required plugins (Elementor, ACF Pro, RyanCV Plugin, One Click Demo Import). Then go to Appearance > Import Demo Data in your WordPress sidebar, choose your preferred demo variation, and click "Import Demo".',
+      'First activate the theme and required plugins (Elementor, ACF Pro, OvaSabi CV Plugin, One Click Demo Import). Then go to Appearance > Import Demo Data in your WordPress sidebar, choose your preferred demo variation, and click "Import Demo".',
     chapterRef: 'demo-import',
   },
   {
@@ -285,10 +285,10 @@ export const gitbookFAQs: FAQItem[] = [
     chapterRef: 'welcome',
   },
   {
-    question: 'How do I set up the contact form in RyanCV?',
+    question: 'How do I set up the contact form in OvaSabi CV?',
     keywords: ['contact form', 'form', 'contact', 'email', 'contact form 7', 'metform'],
     answer:
-      'RyanCV supports Contact Form 7 and MetForm. Use the pre-built contact form templates imported with the demo data, or insert the [contact-form-7] shortcode into your Contact page via Elementor.',
+      'OvaSabi CV supports Contact Form 7 and MetForm. Use the pre-built contact form templates imported with the demo data, or insert the [contact-form-7] shortcode into your Contact page via Elementor.',
     chapterRef: 'required-plugins',
   },
   {

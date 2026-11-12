@@ -89,7 +89,7 @@ export const EditProfileModal: React.FC<EditProfileModalProps> = ({
             <span>Customize vCard & Resume</span>
           </h2>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Tailor the profile details live to test how your own information presents in RyanCV.
+            Tailor the profile details live to test how your own information presents in OvaSabi CV.
           </p>
         </div>
 

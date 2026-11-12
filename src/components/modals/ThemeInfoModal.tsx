@@ -45,20 +45,20 @@ export const ThemeInfoModal: React.FC<ThemeInfoModalProps> = ({
             className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-white shadow-sm text-sm"
             style={{ backgroundColor: activeColor }}
           >
-            R
+            O
           </span>
           <div>
             <h2 className="text-xl font-bold text-slate-900 dark:text-white">
-              RyanCV vCard & Resume Theme
+              OvaSabi CV WordPress Theme
             </h2>
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              Created by <span className="font-semibold text-slate-700 dark:text-slate-300">bslthemes</span>
+              Modern CV, Resume & vCard Portfolio
             </p>
           </div>
         </div>
 
         <p className="text-xs leading-relaxed text-slate-600 dark:text-slate-300 mt-4 mb-6">
-          RyanCV is an award-winning, globally acclaimed CV, Resume, and vCard portfolio theme crafted for developers, designers, architects, freelancers, and creative technologists.
+          OvaSabi CV is an award-winning, globally acclaimed CV, Resume, and vCard WordPress theme crafted for developers, designers, architects, freelancers, and creative technologists.
         </p>
 
         {/* Feature Highlights List */}

@@ -37,16 +37,16 @@ interface GithubTabProps {
 const fallbackRepos: GithubRepo[] = [
   {
     id: 1,
-    name: 'ryancv-react-portfolio',
-    full_name: 'bslthemes/ryancv-react-portfolio',
+    name: 'ovasabi-cv-theme',
+    full_name: 'ovasabi/ovasabi-cv-theme',
     description:
-      'Official React 19 & Tailwind CSS v4 port of the award-winning RyanCV vCard / Resume portfolio template.',
-    html_url: 'https://github.com/topics/ryancv',
+      'Official React 19 & Tailwind CSS v4 port of the OvaSabi CV WordPress Theme.',
+    html_url: 'https://github.com/topics/wordpress-theme',
     stargazers_count: 1420,
     forks_count: 318,
     language: 'TypeScript',
     updated_at: '2026-03-01T12:00:00Z',
-    topics: ['portfolio', 'vcard', 'resume', 'tailwind-v4', 'react'],
+    topics: ['portfolio', 'vcard', 'resume', 'tailwind-v4', 'wordpress-theme'],
     default_branch: 'main',
   },
   {
